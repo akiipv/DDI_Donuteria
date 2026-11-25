@@ -1,0 +1,58 @@
+<resources>
+    <!-- Common -->
+    <string name="action_back">Back</string>
+    <string name="action_back_stack">Go back (popBackStack)</string>
+
+    <!-- VistaDetalle -->
+    <string name="detail_title">📄 Detail Screen (Stack)</string>
+    <string name="detail_arg_received">Received argument: %1$s</string>
+    <string name="detail_cd_infinite_rotation">Infinite rotation</string>
+    <string name="detail_box_label">BoxScope + Canvas + Animation</string>
+    <string name="detail_touch_me">Touch me</string>
+    <string name="detail_full_opacity">Full opacity</string>
+
+    <!-- VistaInicio -->
+    <string name="home_title">🏠 Home — Stack Navigation</string>
+    <string name="home_subtitle">Tap an item to push a detail screen onto the NavHost:</string>
+    <string name="home_cd_view_detail">View detail</string>
+
+    <!-- VistaExplorarMaestroDetalle -->
+    <string name="explore_title">🔍 Explore — Master-Detail</string>
+    <string name="explore_detail_panel">Detail Panel</string>
+    <string name="explore_back_to_list">Back to list</string>
+    <string name="explore_empty_selection">Select a topic from the list to view its details</string>
+
+    <!-- VistaPerfilConPestanas -->
+    <string name="profile_tab_data">Data</string>
+    <string name="profile_tab_favorites">Favorites</string>
+    <string name="profile_tab_settings">Settings</string>
+    <string name="profile_content_data">👤 Tab 1: User profile information</string>
+    <string name="profile_content_favorites">⭐ Tab 2: Saved favorite items</string>
+    <string name="profile_content_settings">⚙️ Tab 3: Preferences and settings</string>
+
+    <!-- VistaListado -->
+    <string name="list_title">📋 List View</string>
+    <string name="list_cd_open">Open</string>
+
+    <!-- VistaShowElement -->
+    <string name="show_gesture_initial">Tap, double-click, or long-press on the card</string>
+    <string name="show_gesture_click_expanded">Single click: text expanded</string>
+    <string name="show_gesture_click_collapsed">Single click: text collapsed</string>
+    <string name="show_gesture_double_click">Double click: extra panel toggled</string>
+    <string name="show_gesture_long_click">Long press detected on %1$s</string>
+    <string name="show_card_cd">Detail card for item %1$s</string>
+    <string name="show_id_label">ID: %1$s</string>
+    <string name="show_expanded_suffix">Expanded content powered by animateContentSize().</string>
+    <string name="show_interactive_panel_title">Interactive panel (double-click to hide)</string>
+    <string name="show_toggle_option">Option with Modifier.toggleable</string>
+    <string name="show_radio_option_a">Option A</string>
+    <string name="show_radio_option_b">Option B</string>
+    <string name="show_focus_active">Focus active (press Enter)</string>
+    <string name="show_focus_inactive">Tap to focus</string>
+    <string name="show_focus_btn">Focus</string>
+    <string name="show_drag_horizontal">Drag me horizontally (pointerInput + bounce)</string>
+    <string name="show_draggable_px">draggable: %1$d px</string>
+    <string name="show_scrollable_px">scrollable: %1$d px</string>
+    <string name="show_chip_scroll">Scroll chip #%1$d (reorder)</string>
+    <string name="show_animate_item">• %1$s (animateItem)</string>
+</resources>

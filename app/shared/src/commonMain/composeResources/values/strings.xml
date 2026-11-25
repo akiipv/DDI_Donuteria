@@ -1,0 +1,58 @@
+<resources>
+    <!-- Común -->
+    <string name="action_back">Volver</string>
+    <string name="action_back_stack">Volver atrás (popBackStack)</string>
+
+    <!-- VistaDetalle -->
+    <string name="detail_title">📄 Pantalla Detalle (Pila)</string>
+    <string name="detail_arg_received">Argumento recibido: %1$s</string>
+    <string name="detail_cd_infinite_rotation">Rotación infinita</string>
+    <string name="detail_box_label">BoxScope + Canvas + Animación</string>
+    <string name="detail_touch_me">Tócame</string>
+    <string name="detail_full_opacity">Opacidad completa</string>
+
+    <!-- VistaInicio -->
+    <string name="home_title">🏠 Inicio — Navegación en Pila</string>
+    <string name="home_subtitle">Pulsa un elemento para apilar una pantalla de detalle en el NavHost:</string>
+    <string name="home_cd_view_detail">Ver detalle</string>
+
+    <!-- VistaExplorarMaestroDetalle -->
+    <string name="explore_title">🔍 Explorar — Maestro-Detalle</string>
+    <string name="explore_detail_panel">Panel Detalle</string>
+    <string name="explore_back_to_list">Volver a la lista</string>
+    <string name="explore_empty_selection">Selecciona un tema de la lista para ver su detalle</string>
+
+    <!-- VistaPerfilConPestanas -->
+    <string name="profile_tab_data">Datos</string>
+    <string name="profile_tab_favorites">Favoritos</string>
+    <string name="profile_tab_settings">Ajustes</string>
+    <string name="profile_content_data">👤 Pestaña 1: Información del perfil de usuario</string>
+    <string name="profile_content_favorites">⭐ Pestaña 2: Elementos guardados en favoritos</string>
+    <string name="profile_content_settings">⚙️ Pestaña 3: Preferencias y configuración</string>
+
+    <!-- VistaListado -->
+    <string name="list_title">📋 Vista Listado</string>
+    <string name="list_cd_open">Abrir</string>
+
+    <!-- VistaShowElement -->
+    <string name="show_gesture_initial">Toca o haz doble clic / pulsación larga en la tarjeta</string>
+    <string name="show_gesture_click_expanded">Clic simple: texto expandido</string>
+    <string name="show_gesture_click_collapsed">Clic simple: texto contraído</string>
+    <string name="show_gesture_double_click">Doble clic: panel extra alternado</string>
+    <string name="show_gesture_long_click">Pulsación larga detectada sobre %1$s</string>
+    <string name="show_card_cd">Tarjeta de detalle del elemento %1$s</string>
+    <string name="show_id_label">ID: %1$s</string>
+    <string name="show_expanded_suffix">Contenido ampliado gracias a animateContentSize().</string>
+    <string name="show_interactive_panel_title">Panel interactivo (ocultable con doble clic)</string>
+    <string name="show_toggle_option">Opción con Modifier.toggleable</string>
+    <string name="show_radio_option_a">Opción A</string>
+    <string name="show_radio_option_b">Opción B</string>
+    <string name="show_focus_active">Con foco activo (pulsa Enter)</string>
+    <string name="show_focus_inactive">Pulsa para enfocar</string>
+    <string name="show_focus_btn">Enfocar</string>
+    <string name="show_drag_horizontal">Arrástrame horizontalmente (pointerInput + rebote)</string>
+    <string name="show_draggable_px">draggable: %1$d px</string>
+    <string name="show_scrollable_px">scrollable: %1$d px</string>
+    <string name="show_chip_scroll">Chip scroll #%1$d (reordenar)</string>
+    <string name="show_animate_item">• %1$s (animateItem)</string>
+</resources>
