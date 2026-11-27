@@ -5,6 +5,7 @@ import androidx.compose.runtime.Composable
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
+import org.example.project.presentation.views.HomeDonuteria
 
 @Composable
 fun navController(
@@ -12,18 +13,18 @@ fun navController(
 ) {
     NavHost(
         navController = navController,
-        startDestination = "homeDonut"
+        startDestination = "HomeDonuteria"
     ) {
         // Destino 1: Inicio (Flujo en Pila hacia Detalle)
-        composable("homeDonut") {
-            // llamada a la vista
-            Text(text = "Ruta1")
+        composable("HomeDonuteria") {
+            HomeDonuteria()
         }
 
         // Destino 1: Inicio (Flujo en Pila hacia Detalle)
-        composable("ruta1") {
-            // llamada a la vista
-            homeDonuteria()
+        composable("FormularioDonuteria") {
+            FormularioDonuteria(terminarForm = {
+                navController.navigate("HomeDonuteria")
+            })
         }
     }
 }

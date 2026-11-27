@@ -27,7 +27,7 @@ fun App() {
     KoinApplication(application = {
         modules(donutViewModule)
     }) {
-        AppTheme(darkTheme = true) {
+        AppTheme {
             menuPrincipal(navController)
         }
     }
