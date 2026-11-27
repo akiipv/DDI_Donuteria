@@ -1,6 +1,16 @@
 package org.example.project
 
 import androidx.compose.runtime.Composable
+import androidx.navigation.NavController
+import androidx.navigation.NavHostController
+import androidx.navigation.compose.rememberNavController
+import org.example.project.presentation.views.koin.donutViewModule
+import org.example.project.presentation.views.navController
+import org.example.project.presentation.views.theme.AppTheme
+import org.koin.compose.KoinApplication
+
+@Composable
+expect fun menuPrincipal(navController: NavHostController)
 
 @Composable
 fun App() {
@@ -11,4 +21,14 @@ fun App() {
     // 5. Creamos la primera vista, su viewModel y su State.
     // 5.1 Añadimos esta vista-viewmodel-state dentro del navigation y koin
     // 6. Revisamos que la vista funcione y luego continuamos creando las demas vistas
+
+    val navController = rememberNavController()
+
+    KoinApplication(application = {
+        modules(donutViewModule)
+    }) {
+        AppTheme(darkTheme = true) {
+            menuPrincipal(navController)
+        }
+    }
 }
