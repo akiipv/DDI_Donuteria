@@ -10,6 +10,7 @@ import org.example.project.generated.resources.Quicksand_Medium
 import org.example.project.generated.resources.Quicksand_Regular
 import org.jetbrains.compose.resources.Font
 import org.example.project.generated.resources.Res
+import org.example.project.generated.resources.ZalandoSansSemiExpanded_VariableFont_wght
 
 @Composable
 fun AppTypography(): Typography {
@@ -23,9 +24,13 @@ fun AppTypography(): Typography {
         Font(Res.font.Quicksand_Bold, FontWeight.Bold)
     )
 
+    val displayLarge = FontFamily(
+        Font(Res.font.ZalandoSansSemiExpanded_VariableFont_wght)
+    )
+
     val baseline = Typography()
     return Typography(
-        displayLarge = baseline.displayLarge.copy(fontFamily = displayFontFamily),
+        displayLarge = baseline.displayLarge.copy(fontFamily = displayLarge),
         displayMedium = baseline.displayMedium.copy(fontFamily = displayFontFamily),
         displaySmall = baseline.displaySmall.copy(fontFamily = displayFontFamily),
 
